@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Greenfield Community Library | Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="page">
+    <header id="site-header">
+      <h1>Greenfield Community Library</h1>
+      <nav aria-label="Main">
+        <a href="fixed.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="#opening-hours">Opening hours</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <h2>Welcome to our library</h2>
+      <p>We lend books, run reading clubs, and host free workshops for the whole community.</p>
+      <div class="highlight">
+        <p><b>Open <i>every day</i></b> from 9am to 6pm.</p>
+      </div>
+
+      <img src="images/library-team.svg" width="480" height="270"
+           alt="The Greenfield Library team standing in the main reading room">
+
+      <h2 id="reading-club">Join the reading club</h2>
+      <form action="#" method="post">
+        <p>
+          <label for="fullname">Full name</label>
+          <input type="text" id="fullname" name="fullname">
+        </p>
+        <p>
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com">
+        </p>
+        <p>
+          <label for="genre">Favourite genre</label>
+          <select name="genre" id="genre">
+            <option>Fiction</option>
+            <option>History</option>
+          </select>
+        </p>
+        <p>
+          <input type="checkbox" id="newsletter" name="newsletter">
+          <label for="newsletter">Send me the newsletter</label>
+        </p>
+        <button type="submit">Sign up</button>
+      </form>
+
+      <h2 id="opening-hours">Opening hours</h2>
+      <ul>
+        <li>Monday to Friday: 9am to 6pm</li>
+        <li>Saturday: 10am to 2pm</li>
+      </ul>
+    </main>
+
+    <footer>
+      <div class="contact">
+        <p>Email: <a href="mailto:hello@greenfield.example">hello@greenfield.example</a></p>
+      </div>
+      <p>&copy; 2026 Greenfield Community Library</p>
+    </footer>
+  </div>
+</body>
+</html>

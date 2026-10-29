@@ -1,0 +1,24 @@
+Nu HTML Checker (vnu.jar) - local run, same engine as validator.w3.org/nu
+======================================================================
+
+broken.html
+-----------
+"broken.html":1.1-17.13: error: End tag “header” seen, but there were open elements.
+"broken.html":1.1-11.10: error: Unclosed element “h1”.
+"broken.html":1.1-19.20: error: Duplicate ID “main”.
+"broken.html":1.1-10.22: info warning: The first occurrence of ID “main” was here.
+"broken.html":1.1-23.35: error: End tag “b” violates nesting rules.
+"broken.html":1.1-62.13: error: End tag “footer” seen, but there were open elements.
+"broken.html":1.1-59.27: error: Unclosed element “div”.
+"broken.html": error: Element “head” is missing a required instance of child element “title”.
+"broken.html":12.7-12.11: error: Element “nav” not allowed as child of element “h1” in this context. (Suppressing further errors from this subtree.)
+"broken.html":26.7-26.40: error: An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
+"broken.html":31.11-31.32: error: The value of the “for” attribute of the “label” element must be the ID of a non-hidden form control.
+"broken.html":45.11-45.34: error: The value of the “for” attribute of the “label” element must be the ID of a non-hidden form control.
+"broken.html":1.16-2.6: info warning: Consider adding a “lang” attribute to the “html” start tag to declare the language of this document.
+"broken.html":20.7-20.10: error: The heading “h4” (with computed level 4) follows the heading “h1” (with computed level 1), skipping 2 heading levels.
+"broken.html":51.7-51.10: error: The heading “h6” (with computed level 6) follows the heading “h2” (with computed level 2), skipping 3 heading levels.
+
+fixed.html
+----------
+(no output = no errors or warnings)
